@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         spJumlah = (Spinner) findViewById(R.id.spinnerJumlahAnak);
         Integer[] arJumlah = new Integer[10];
 
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 10; i++) {
             arJumlah[i] = i + 1;
         }
 
